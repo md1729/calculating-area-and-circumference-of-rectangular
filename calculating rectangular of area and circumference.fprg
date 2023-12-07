@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="muhammed"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-07 05:00:58 AM"/>
+        <attribute name="created" value="bXVoYW1tZWQ7REVMTDsyMDIzLTEyLTA3OzA0OjM2OjI5IEFNOzI0MDU="/>
+        <attribute name="edited" value="bXVoYW1tZWQ7REVMTDsyMDIzLTEyLTA3OzA1OjAwOjU4IEFNOzE7MjUwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kisaKenar, uzunKenar, circumference, area" type="Integer" array="False" size=""/>
+            <output expression="&quot;K&#305;sa kenar uzunlu&#287;unu giriniz:&quot;" newline="True"/>
+            <input variable="kisaKenar"/>
+            <output expression="&quot;Uzun kenar uzunlu&#287;unu giriniz:&quot;" newline="True"/>
+            <input variable="uzunKenar"/>
+            <assign variable="circumference" expression="2*(kisaKenar+uzunKenar)"/>
+            <assign variable="area" expression="kisaKenar*uzunKenar"/>
+            <output expression="&quot;area:&quot; &amp; area" newline="True"/>
+            <output expression="&quot;circumference:&quot; &amp; circumference" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
